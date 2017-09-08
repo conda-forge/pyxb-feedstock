@@ -1,4 +1,4 @@
-{% set version = "1.2.5" %}
+{% set version = "1.2.6" %}
 
 package:
   name: pyxb
@@ -7,7 +7,7 @@ package:
 source:
   fn: PyXB-{{ version }}.tar.gz
   url: https://github.com/pabigot/pyxb/archive/PyXB-{{ version }}.tar.gz
-  sha256: be218aac18573ad082afbbcb87230db863564f11779d881096c9dd228db7b14e
+  sha256: 034871fae8935de0b38a613e162dab2382da71ff7b182f34f78f595cafc4a670
 
 build:
   number: 0
