@@ -14,9 +14,7 @@ Summary: PyXB ("pixbee") is a pure Python package that generates Python source c
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pyxb-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyxb-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pyxb-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pyxb-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pyxb-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pyxb-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pyxb-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pyxb-feedstock)
 
 Current release info
 ====================
