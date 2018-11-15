@@ -10,12 +10,13 @@ source:
   sha256: 034871fae8935de0b38a613e162dab2382da71ff7b182f34f78f595cafc4a670
 
 build:
-  number: 0
+  number: 1
   noarch: python
-  script: python setup.py install
+  script: python -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
-  build:
+  host:
+    - pip
     - python
   run:
     - python
@@ -37,7 +38,11 @@ test:
 about:
   home: http://pyxb.sourceforge.net
   license: Apache 2.0
-  summary: PyXB ("pixbee") is a pure Python package that generates Python source code for classes that correspond to data structures defined by XMLSchema.
+  license_family: Apache
+  summary: Python library for working with XMLSchema.
+  description: |
+      PyXB ("pixbee") is a pure Python package that generates Python source
+      code for classes that correspond to data structures defined by XMLSchema.
   dev_url: https://github.com/pabigot/pyxb
   license_file: LICENSE
 
