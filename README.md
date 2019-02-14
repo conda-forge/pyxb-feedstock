@@ -1,3 +1,7 @@
+<!--
+# -*- mode: jinja -*-
+-->
+
 About pyxb
 ==========
 
@@ -7,8 +11,10 @@ Package license: Apache 2.0
 
 Feedstock license: BSD 3-Clause
 
-Summary: PyXB ("pixbee") is a pure Python package that generates Python source code for classes that correspond to data structures defined by XMLSchema.
+Summary: Python library for working with XMLSchema.
 
+PyXB ("pixbee") is a pure Python package that generates Python source
+code for classes that correspond to data structures defined by XMLSchema.
 
 
 Current build status
@@ -48,6 +54,8 @@ conda search pyxb --channel conda-forge
 
 About conda-forge
 =================
+
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
 
 conda-forge is a community-led conda channel of installable packages.
 In order to provide high-quality builds, the process has been automated into the
@@ -103,3 +111,9 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@grlee77](https://github.com/grlee77/)
+
